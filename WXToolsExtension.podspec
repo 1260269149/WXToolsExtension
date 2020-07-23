@@ -40,5 +40,6 @@ TODO: Add long description of the pod here.
    s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'Kingfisher'#, '~> 2.3'
    s.dependency 'IQKeyboardManagerSwift'
+   s.dependency 'FDFullscreenPopGesture'
    
 end
