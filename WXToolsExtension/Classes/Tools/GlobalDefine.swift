@@ -10,7 +10,7 @@ import UIKit
 import Foundation
 
 
-public let kIsIphoneX = WXTools.br_isIphoneFullScreen()
+public let kIsIphoneX = iphoneX_Series
 public let kBottomHeight: CGFloat = iphoneX_Series ? 34.0 : 0.0
 public let kNavgationAllH:CGFloat = iphoneX_Series ? 88 : 64
 public let kTabbarHeight:CGFloat = 49
@@ -79,15 +79,6 @@ var safeBottomHeight :CGFloat{
     }
 }
 
-var WINDOW: UIWindow? {
-    get{
-        if let app = UIApplication.shared.delegate as? AppDelegate {
-            return app.window
-        }
-        return nil
-    }
-}
- 
 //2. iPhoneX系列
 var iphoneX_Series: Bool {
     get {
