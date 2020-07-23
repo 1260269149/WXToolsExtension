@@ -1,0 +1,16 @@
+PODS:
+  - WXToolsExtension (0.1.0)
+
+DEPENDENCIES:
+  - WXToolsExtension (from `../`)
+
+EXTERNAL SOURCES:
+  WXToolsExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WXToolsExtension: 953c4d6bd5ea36e7a5a67a79e950801b55ffabc3
+
+PODFILE CHECKSUM: 56e407f43265d0a0b86051d79577ed6c19683484
+
+COCOAPODS: 1.9.3

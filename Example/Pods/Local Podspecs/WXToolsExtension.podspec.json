@@ -1,0 +1,22 @@
+{
+  "name": "WXToolsExtension",
+  "version": "0.1.0",
+  "summary": "A short description of WXToolsExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wangxu/WXToolsExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangxu": "1260269149@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wangxu/WXToolsExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WXToolsExtension/Classes/**/*"
+}

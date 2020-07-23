@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WXToolsExtension_Example' do
+  pod 'WXToolsExtension', :path => '../'
+
+  target 'WXToolsExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
