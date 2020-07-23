@@ -9,13 +9,11 @@
 /* Begin PBXBuildFile section */
 		001B26A1B3DA42DD2DF3A7D9997396C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		01B5770AEFD08DF8E81E7A1299BA2451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		146A6358E4B615B55ACA0AD06BCA3ADC /* CHCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8882CB3DF47BB49369F41A6D9A1473 /* CHCorner.swift */; };
 		21A79D19AEFB5EE89C0B162BC76BCB87 /* Pods-WXToolsExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C6277076FCCB9D5B026F97F15792F19 /* Pods-WXToolsExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FF5B84A67C51F8941D61FC65BAF2191 /* Pods-WXToolsExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8618C1D13F0A26D26A40F1EFBEB8673 /* Pods-WXToolsExtension_Tests-dummy.m */; };
 		4E4BB588A65FFB7424B991240386FDD7 /* WXTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC42B7E15BCD38E9D3FD39D656F1225 /* WXTools.swift */; };
 		74B11F31068028FCA8B45F9A558E41AD /* WXToolsExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E020A7DDCAD011FF8393D8B12EA7534 /* WXToolsExtension-dummy.m */; };
 		781EDE778405D6D529E373A059624731 /* Pods-WXToolsExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BFEE0530DE9BC9F85A330E02D390F8 /* Pods-WXToolsExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78D301C524C98C6B00267922 /* GlobalDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D301C424C98C6B00267922 /* GlobalDefine.swift */; };
 		A0291EABBD7094D2672E5DD4E38CD125 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2376D7FF6AE2DDF7275756BD9930A94 /* ReplaceMe.swift */; };
 		ADD2E176188FBBC02615CD6F62AFD27E /* WXToolsExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3355EC1E3A98A46C24415DC544AAB9D6 /* WXToolsExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B101F1E320F1B4FEC3DC84793F74A95C /* Pods-WXToolsExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB5485348E79C97F42F904EDCF651C4 /* Pods-WXToolsExtension_Example-dummy.m */; };
@@ -59,7 +57,6 @@
 		61D21605E089155D6FB322B4336715D7 /* Pods-WXToolsExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WXToolsExtension_Tests.modulemap"; sourceTree = "<group>"; };
 		7252B6109D85DEE565A8049A79C3A451 /* WXToolsExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXToolsExtension.debug.xcconfig; sourceTree = "<group>"; };
 		7866A050852E7866BB852EE65CD0F886 /* WXToolsExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXToolsExtension.release.xcconfig; sourceTree = "<group>"; };
-		78D301C424C98C6B00267922 /* GlobalDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalDefine.swift; sourceTree = "<group>"; };
 		7CB5485348E79C97F42F904EDCF651C4 /* Pods-WXToolsExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WXToolsExtension_Example-dummy.m"; sourceTree = "<group>"; };
 		912D6E3E36F22218F8928F066404D7AF /* Pods-WXToolsExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXToolsExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		91AB6BE11A367424B9A1112268E773EB /* WXToolsExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WXToolsExtension-Info.plist"; sourceTree = "<group>"; };
@@ -75,7 +72,6 @@
 		EC4195553EB378DE0B5DF674103CFA60 /* WXToolsExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WXToolsExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F33B3D85255D10CB592AB5398E573654 /* Pods-WXToolsExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXToolsExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FAF73E58A38B153E832DE8CC9AD4AE56 /* WXToolsExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXToolsExtension-prefix.pch"; sourceTree = "<group>"; };
-		FE8882CB3DF47BB49369F41A6D9A1473 /* CHCorner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CHCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,14 +146,6 @@
 			path = "Target Support Files/Pods-WXToolsExtension_Tests";
 			sourceTree = "<group>";
 		};
-		8BFD6424AB8A0F2497B02B31EF24ED82 /* Corner */ = {
-			isa = PBXGroup;
-			children = (
-				FE8882CB3DF47BB49369F41A6D9A1473 /* CHCorner.swift */,
-			);
-			path = Corner;
-			sourceTree = "<group>";
-		};
 		B47B7F128394F8E7B70A76F08B549280 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,8 +167,6 @@
 			isa = PBXGroup;
 			children = (
 				BAC42B7E15BCD38E9D3FD39D656F1225 /* WXTools.swift */,
-				78D301C424C98C6B00267922 /* GlobalDefine.swift */,
-				8BFD6424AB8A0F2497B02B31EF24ED82 /* Corner */,
 			);
 			name = Tools;
 			path = WXToolsExtension/Classes/Tools;
@@ -401,8 +387,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				146A6358E4B615B55ACA0AD06BCA3ADC /* CHCorner.swift in Sources */,
-				78D301C524C98C6B00267922 /* GlobalDefine.swift in Sources */,
 				A0291EABBD7094D2672E5DD4E38CD125 /* ReplaceMe.swift in Sources */,
 				4E4BB588A65FFB7424B991240386FDD7 /* WXTools.swift in Sources */,
 				74B11F31068028FCA8B45F9A558E41AD /* WXToolsExtension-dummy.m in Sources */,
